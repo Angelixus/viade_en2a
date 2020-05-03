@@ -1,0 +1,243 @@
+{
+  "appPermission": {
+    "message": "The application permissions are not properly set. Please add additional permissions and try again",
+    "link": {
+      "label": "Learn more",
+      "href": "https://solidsdk.inrupt.net/public/general/en/app-permissions.html"
+    }
+  },
+  "notifications": {
+    "success": "Success",
+    "error": "Error",
+    "unknownError": "An unknown error has occurred",
+    "404": "Editing a new document.",
+    "errorLoading": "There was an error loading your file, please try again.",
+    "errorSaving": "There was an error saving your file, please try again.",
+    "errorFetching": "Error fetching document.",
+    "accessGranted": "Co-editor now has read/write access.",
+    "errorGrantingAccess": "There was an error giving access to your file, please try again.",
+    "saved": "Your file was saved successfully.",
+    "notEditable": "(not editable)",
+    "notSharable": "(log in and load a doc on your own pod to give others access)"
+  },
+  "login": {
+    "title": "Hi! Welcome to Viade En2A.",
+    "loginTitle": "Log in",
+    "register": "Register for a solid identity",
+    "solidHelp": "What is a Solid Identity?",
+    "providerPlaceholder": "Select ID Provider",
+    "selectPlaceholder": "Select ID Provider",
+    "inputPlaholder": "WebID",
+    "formButtonText": "Log In",
+    "btnTxtWebId": "Log In with WebId",
+    "btnTxtProvider": "Log In with Provider",
+    "errors": {
+      "unknown": "Something is wrong, please try again...",
+      "webIdNotValid": "WebID is not valid",
+      "emptyProvider": "Solid Provider is required",
+      "emptyWebId": "Valid WebID is required"
+    }
+  },
+  "register": {
+    "title": "Hi! Welcome to Solid.",
+    "step1Title": "Select your Provider",
+    "whatIsAProvider": "What is a provider, and how should I choose one?",
+    "alreadySolid": "I already have a Solid identity",
+    "next": "Next"
+  },
+  "navBar": {
+    "map": "Map",
+    "welcome": "Welcome",
+    "seeRoutes": "See Routes",
+    "createRoute":"Create A Route",
+    "importRoute":"Import A Route",
+    "manageFriends":"Manage Friends",
+    "logOut": "Log out",
+    "profile": "Profile",
+    "formModelRender": "Form Model Render",
+    "formModelConvert": "Form Model Convert",
+    "text-editor": "Text Editor",
+    "changeLanguage": "Change Language",
+    "languages": {
+      "en": "English (English)",
+      "es": "Español (Spanish)"
+    },
+    "notifications": {
+      "global": "Global",
+      "tictactoe": "TicTacToe Game",
+      "noinbox": "Global inbox not found. Please create one and try again.",
+      "fetchingError": "Error fetching notifications from Pod"
+    },
+    "tictactoe": "Game"
+  },
+  "footer": {
+    "version": "Version"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "content": "There may be an error in the URL entered into your web browser. Please check the URL and try again. Or the page you're looking for has been moved or deleted",
+    "redirectButton": "Take me back to the welcome page"
+  },
+  "welcome": {
+    "welcome": "Welcome",
+    "doneMessage": "All done ?",
+    "title": "<0>Welcome to the route management application ViaDe</0>",
+    "description": "<0>This application is designed to manage routes created by the user using the <1>Linked Data</1> technology and <2>SOLID</2> PODs. The user may visualize their routes on a map, create new routes and share them among their friends (and see the routes of said friends).</0>",
+    "githubTiitle": "Github",
+    "githubText": "<0>This application is open source and complies with the route storing standard for SOLID <1>viadeSpec</1>. You can check the source code on the Github <2>repository</2>.</0>",
+    "implementing": "This latest release builds on the prior versions:",
+    "version010": "<0><0><0>Internationalization</0> best practices, with application session language selection.</0><0>Ability to update your profile image on the Welcome page.</0> </0>",
+    "version030": "<0><0>Implementing the ability to view and edit your <1>User Profile</1></0><1>Including an Application Footer that displays the build number and links to resources.</1><2>Addressing several minor issues based on user feedback.</2></0>",
+    "upload": "Upload New Photo",
+    "successTitle": "Success",
+    "uploadSuccess": "Profile Image was updated",
+    "uploadingText": "Uploading",
+    "errorTitle": "Error",
+    "errors": {
+      "sizeLimit": "File size exceeds the allowable limit ({{limit}})",
+      "unsupported": "Unsupported media type",
+      "maximumFiles": "Sorry, you have exceeded the maximum number of files allowed per upload"
+    },
+    "useGuideTitle": "Use guide",
+    "useGuide": "<0>Viade route management system will allow you to create, import and visualize all your routes. Moreover, you will be able to share any route with your friends and see all the routes they share with you.<1>See routes: Shows a list with all the routes stored in your POD. By clicking in any of them, a new screen will show up where the route is displayed on a map. Each route has its own comments, multimedia and info sections. From this screen you will also be able to share the route with any friend you want by clicking the share button and selecting the corresponding friend or group.</1><1>Create a route: The route creation process has two steps. The first one consists of clicking the points of the map which the route will go through. Once done, the edit mode is deactivated by double clicking the last route point or by clicking again the starting point in the case of the route being cyclic. Lastly, a form must be filled with the name and a description for the route, being this last field optional.</1><1>Import a route: Once selected the file with GPX extension, the stored routes will be displayed on the map and will automatically be stored in your POD.</1><1>Friends management: From this screen you can add friends to your POD by inserting their Web ID. You can also access the list of routes that each of your friends has shared with you. Moreover, clicking the dropdown buttonassigned to each person you are able to view their respective profiles or to delete them as friends.</1></0>"
+  },
+  "profile": {
+    "successCallback": "Pod updated successfully",
+    "successTitle": "Success",
+    "errorCallback": "Error submitting form",
+    "errorTitle": "Error",
+    "saveBtn": "Save",
+    "resetBtn": "Reset",
+    "addBtn": "+ Add new ",
+    "deleteBtn": "Remove",
+    "dropdownDefaultText": "- Select -",
+    "upload": "Upload New Photo",
+    "uploadSuccess": "Profile Image was updated",
+    "uploadingText": "Uploading",
+    "updateSuccess": "Profile was updated successfully",
+    "nameRequired": "Name is required",
+    "errors": {
+      "default": "Something is wrong, please try again...",
+      "406": "Please ensure the form is valid",
+      "500": "An error has occurred in the server",
+      "sizeLimit": "File size exceeds the allowable limit ({{limit}})",
+      "unsupported": "Unsupported media type",
+      "maximumFiles": "Sorry, you have exceeded the maximum number of files allowed per upload"
+    },
+    "autosaveNotification": "Profile changes are saved immediately. There is no undo.",
+    "warningResolution": "Field value has been updated to:",
+    "minMxNumberInclusive": "Error: Min and max should be ",
+    "minMxNumberExclusive": "Error: Min and max value should be ",
+    "minMaxString": "Error: Min and max should be ",
+    "defaultError": "Error: Field value has wrong format"
+  },
+  "mapView":{
+    "viewTitle":"Visualizing the route: ",
+    "importedRoutesTitle":"Visualizing routes to import",
+    "menu":{
+      "images":"Images and videos",
+      "comments": "Comments",
+      "data":"Data about the route"
+    },
+    "shareButton":"Share route",
+    "shareWith":"Choose a friend or group to share with: ",
+    "share":"Share",
+    "shareSuccess": "The route was shared successfully",
+    "errorSuccess": "The route could not be shared with ",
+    "notificationTitle": "Route shared",
+    "notificationSummary": " has shared a route with you: ",
+    "comment": {
+      "commentSuccess" : "The comment was successfully added",
+      "commentFailure" : "There was an error when posting the comment, try again",
+      "commentButton" : "Comment",
+      "commentPlaceholder" : "What a cool route!",
+      "fieldName": "Post here the comment"
+    },
+    "resources":{
+      "pictures": "Pictures",
+      "videos": "Videos",
+      "audios": "Audios"
+    }
+  },
+  "createRouteView":{
+    "defaultFormValues":{
+      "name":"The name of the route",
+      "description":"The description of the route"
+    },
+    "errors":{
+      "nameEmpty":"The name can't be empty",
+      "routeEmpty":"The route must hace at least one point in the map",
+      "error":"There was a problem while storing the route"
+    },
+    "success":"The route has been stored: OK!",
+    "lateralForm":{
+      "routeName":"Name of the route",
+      "routeDescription":"Description of the route",
+      "createButton":"Create"
+    }
+  },
+  "friendsManagement":{
+    "profile": "View Profile",
+    "delete": "Delete Friend"
+  },
+  "editor": {
+    "explanation": "This simple text editor enables you to create a plaintext file and save it in a Pod. To make this very clear for the demo you provide a URL as an absolute path to the file in the Pod. The Pod can be the one this App has been logged into or another person's Pod. To write, and read, into another person's Pod the owner will have had to provide you with write permission.",
+    "url": "URL",
+    "friend": "Co-editor's webid",
+    "load": "Load",
+    "save": "Save",
+    "grantAccess": "Grant Access"
+  },
+  "manageFriends": {
+    "viewProfile": "View profile",
+    "delete": "Delete",
+    "viewRoutes": "View routes",
+    "error":{
+      "nonexistentWebID": "This webId does not exist",
+      "defaultErrorMessage": "An error occurred while trying to fetch this webId",
+      "notValidWebID": "This is not a valid webId"
+    },
+    "addFriendExplanation": "Enter the webID of the person you want to add as friend: ",
+    "webIDExample": "WebId example: https://mariaflorez.solid.community/profile/card#me",
+    "addFriend": "Add friend",
+    "searchPlaceholder": "Search...",
+    "listOfFriends": "List of Friends",
+    "addFriendSucess": "The user has been added as a friend successfully"
+  },
+  "utils":{
+    "back": "Back"
+  },
+  "error":{
+    "importError": "An error happened while importing the route, please try again",
+    "importVisualizeError": "An error happened while parsing the route to be visualized, use another gpx file or try again",
+    "sizeLimitImport": "Tried to import more than one file or tried to import a file that is not .gpx",
+    "gpxNotRoutes": "The gpx contains no route, maybe the gpx has no trk",
+    "gpxNotRoutesTitle": "No Route",
+    "fileReadError": "The system could not read the file",
+    "removedRoute": "This route has been removed"
+  },
+  "import": {
+    "dragAndDropMain": "Drag n' drop the route file you want to import",
+    "dragAndDropSupported": "Supported extension files *.gpx",
+    "dragAndDropCurrentFiles": "Current route file to import:",
+    "success": "Routes correctly saved to POD",
+    "successTitle": "Imported",
+    "failure": "Some or any routes could not be saved to POD",
+    "failureTitle": "Not Imorted",
+    "submitButton": "Import"
+  },
+  "resourceUpload" :{
+    "dragAndDropMain": "Drag n' drop the resource file you want to upload",
+    "dragAndDropSupported": "Supported extensions files *.jpg, *.png *.gif *.mp4 *.mp3",
+    "success": "Resource succeessfully saved to POD",
+    "failure": "Some or any resources could not be saved to POD",
+    "button": "Upload"
+  },
+  "resourceVinculation" :{
+    "success": "The resourse has been successfully linked to the POD",
+    "failure": "Some or any resource could not be linked to the POD",
+    "button": "Link",
+    "label":"Resource's URI:"
+    
+  }
+}
